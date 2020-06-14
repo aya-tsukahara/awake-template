@@ -62,3 +62,8 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+.subtitle-wrapper {
+  
+}
+</style>
