@@ -15,9 +15,9 @@
     >
       <strong>Author:</strong> {{ author }} |
     </span> -->
-    <span class="subtitle-wrapper">
+    <p class="subtitle-wrapper">
       {{ subtitle }}
-    </span>
+    </p>
     <span v-if="date" class="date-wrapper">
       <strong>Published on:</strong> {{ datePretty }}
     </span>
