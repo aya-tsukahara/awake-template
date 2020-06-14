@@ -15,6 +15,9 @@
     >
       <strong>Author:</strong> {{ author }} |
     </span> -->
+    <span v-if="subtitle" class="author-wrapper">
+      {{ subtitle }}
+    </span>
     <span v-if="date" class="date-wrapper">
       <strong>Published on:</strong> {{ datePretty }}
     </span>
@@ -40,6 +43,10 @@ export default {
       default: ''
     },
     date: {
+      type: String,
+      default: ''
+    },
+    subtitle: {
       type: String,
       default: ''
     },
