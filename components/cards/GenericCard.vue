@@ -78,12 +78,6 @@ export default {
 <style scoped lang="scss">
 .subtitle {
   opacity: 0.5;
-  .subtitle-wrapper {
-    font-size: 0.9em;
-  }
-  .date-wrapper {
-    font-size: 0.8rem;
-  }
 }
 .empty-content-placeholder {
   background: transparent;
