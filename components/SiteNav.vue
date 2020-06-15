@@ -80,5 +80,6 @@ export default {
 .navbar-brand {
   font-family: 'MuseoModerno';
   font-weight: 600;
+  font-size: 1.6rem;
 }
 </style>
