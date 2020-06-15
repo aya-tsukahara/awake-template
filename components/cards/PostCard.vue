@@ -63,10 +63,10 @@ export default {
 }
 </script>
 <style lang="scss">
-  .subtitle-wrapper {
-    font-size: 0.9em;
-  }
-  .date-wrapper {
-    font-size: 0.8rem;
-  }
+.subtitle-wrapper {
+  font-size: 0.9em;
+}
+.date-wrapper {
+  font-size: 0.8rem;
+}
 </style>
