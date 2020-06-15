@@ -8,13 +8,14 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h3>このサイトについて</h3>
           <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
+            ご覧いただきありがとうございます。<br />このサイトは<a
+              href="https://github.com/danielkellyio/awake-template"
+              target="_blank"
+            >Awake</a>というテンプレートを使用して制作しています。<br />普段はhtml/css/jQUery/JavaScript/PHPが多いため、Vue.jsとNuxt.jsに触れてみたいと思いこの方法を選びました。<br />全くわからないままカスタマイズをしているので現在Vueの基礎から勉強をしています。
           </p>
-          <p>
+          <!-- <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
             eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
             sunt temporibus. Distinctio doloremque eum magni nostrum quasi
@@ -39,10 +40,10 @@
             <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
             quisquam saepe? Alias architecto blanditiis consequatur consequuntur
             dicta ipsa iste modi provident, quod, similique veritatis.
-          </p>
+          </p> -->
         </div>
 
-        <div class="tile is-ancestor">
+        <!-- <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
@@ -82,7 +83,7 @@
               </figure>
             </article>
           </div>
-        </div>
+        </div> -->
       </template>
 
       <template v-slot:sidebar>

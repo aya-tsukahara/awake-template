@@ -52,6 +52,10 @@ export default {
 </script>
 
 <style lang="scss">
+.p-home__intro {
+  text-align: center;
+  margin-bottom: 10px;
+}
 .page-main-section {
   margin-top: 52px;
 }

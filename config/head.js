@@ -10,12 +10,15 @@ export default {
     }
   ],
   link: [
-    { 
-      rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' 
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
     },
     {
-      rel:'stylesheet',
-      href:'https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap'
+      rel: 'stylesheet',
+      href:
+        'https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap'
     }
   ],
   script: [

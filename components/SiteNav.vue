@@ -13,7 +13,9 @@
           :alt="$siteConfig.siteName"
           class="logo"
         /> -->
-        <p v-else>{{ $siteConfig.logo }}</p>
+        <p v-else>
+          {{ $siteConfig.logo }}
+        </p>
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
