@@ -19,7 +19,7 @@ export default {
   },
   mainMenu: [
     {
-      name: '塚原について',
+      name: 'About',
       link: '/about'
     }
     // {
