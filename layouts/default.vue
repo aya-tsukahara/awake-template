@@ -107,6 +107,8 @@ export default {
   }
 }
 </script>
+//
 <script>
-new ClipboardJS('.btn');
+// new ClipboardJS('.btn');
+//
 </script>

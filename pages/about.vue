@@ -9,24 +9,32 @@
       <template v-slot:default>
         <div class="content">
           <h3>このサイトについて</h3>
-          <p>ご覧いただきありがとうございます。<br>塚原彩と申します。WEB制作会社で4年ほどコーダーをしています。</p>
+          <p>
+            ご覧いただきありがとうございます。<br />塚原彩と申します。WEB制作会社で4年ほどコーダーをしています。
+          </p>
           <p>
             このサイトは<a
               href="https://github.com/danielkellyio/awake-template"
               target="_blank"
-            >Awake</a>というテンプレートを使用して制作しています。<br>普段はhtml/css/jQUery/JavaScript/PHPが多いため、Vue.jsとNuxt.jsに触れてみたいと思いこの方法を選びました。<br>全くわからないままカスタマイズをしているので現在Vueの基礎から勉強をしています。
+              >Awake</a
+            >というテンプレートを使用して制作しています。<br />普段はhtml/css/jQUery/JavaScript/PHPが多いため、Vue.jsとNuxt.jsに触れてみたいと思いこの方法を選びました。<br />全くわからないままカスタマイズをしているので現在Vueの基礎から勉強をしています。
           </p>
-          <p>コードを書く上で意識している事<br>
+          <p>コードを書く上で意識している事<br /></p>
           <dl>
             <div>
               <dt>・メンテナンス性の高いコーディング</dt>
-              <dd>CSS→再利用可能なCSS設計を目指しています。classはFLOCSSを使っています</dd>
-              <dd>html→普段はejsを使用して繰り返しのデザインはオブジェクトなどにまとめてコーディングしています</dd>
+              <dd>
+                CSS→再利用可能なCSS設計を目指しています。classはFLOCSSを使っています
+              </dd>
+              <dd>
+                html→普段はejsを使用して繰り返しのデザインはオブジェクトなどにまとめてコーディングしています
+              </dd>
             </div>
             <div>
               <dt>・自分なりの工夫をする事</dt>
-              <dd>基本的に複数の案件を抱えています。実コーディング時間が取れない中でも、「もっとこうしたら使いやすくなるのでは」を考え<br>
-              実装の検証〜ご提案をするようにしています。
+              <dd>
+                基本的に複数の案件を抱えています。実コーディング時間が取れない中でも、「もっとこうしたら使いやすくなるのでは」を考え<br />
+                実装の検証〜ご提案をするようにしています。
               </dd>
             </div>
           </dl>
@@ -111,13 +119,13 @@
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
+// import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
-  },
-  components: { QuoteCard }
+  }
+  // components: { QuoteCard }
 }
 </script>
