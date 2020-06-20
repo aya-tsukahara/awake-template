@@ -63,7 +63,6 @@ export default {
     setPageData(store, { resource: 'post', slug: params.singlePost })
   }
 }
-new ClipboardJS('.btn');
 </script>
 <style scoped lang="scss">
 .edit-post {
