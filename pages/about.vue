@@ -9,6 +9,7 @@
       <template v-slot:default>
         <div class="content">
           <h3>このサイトについて</h3>
+          <p>塚原彩と申します。</p>
           <p>
             ご覧いただきありがとうございます。<br />このサイトは<a
               href="https://github.com/danielkellyio/awake-template"

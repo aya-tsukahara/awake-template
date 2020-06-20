@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'ポートフォリオ',
-  tagline: '塚原あやのポートフォリオです',
+  siteName: '塚原彩のポートフォリオ',
+  tagline: '塚原彩のポートフォリオです',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'PORTFOLIO', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
