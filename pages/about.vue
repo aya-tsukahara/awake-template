@@ -9,12 +9,12 @@
       <template v-slot:default>
         <div class="content">
           <h3>このサイトについて</h3>
-          <p>塚原彩と申します。</p>
+          <p>ご覧いただきありがとうございます。<br>塚原彩と申します。WEB制作会社で4年ほどコーダーをしています。</p>
           <p>
-            ご覧いただきありがとうございます。<br />このサイトは<a
+            このサイトは<a
               href="https://github.com/danielkellyio/awake-template"
               target="_blank"
-            >Awake</a>というテンプレートを使用して制作しています。<br />普段はhtml/css/jQUery/JavaScript/PHPが多いため、Vue.jsとNuxt.jsに触れてみたいと思いこの方法を選びました。<br />全くわからないままカスタマイズをしているので現在Vueの基礎から勉強をしています。
+            >Awake</a>というテンプレートを使用して制作しています。<br>普段はhtml/css/jQUery/JavaScript/PHPが多いため、Vue.jsとNuxt.jsに触れてみたいと思いこの方法を選びました。<br>全くわからないままカスタマイズをしているので現在Vueの基礎から勉強をしています。
           </p>
           <p>コードを書く上で意識している事<br>
           <dl>
